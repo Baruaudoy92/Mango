@@ -1,0 +1,54 @@
+.bannerglobal{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap; 
+    margin-top: -655px;
+    margin-left: 50px;
+}
+.banner-1{
+    width: 55%;
+    float: left;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.details{
+    width: 70%;
+    font-size: 20px;
+   margin-left: 45px;
+    margin-top: -20px;
+    font-family:monospace;
+    color: rgb(255, 226, 37);
+}
+
+.span{
+    color: rgb(255, 255, 255);
+    font-family:monospace;}
+.span_1{
+    color: rgb(255, 255, 255);
+    font-family:monospace;}
+.video_ren{
+    width: 370px;
+    margin-left: 110px;
+    border-radius: 20px;
+    margin-top: -35px;
+}
+.lorem{
+    color: rgb(230, 202, 236);
+    font-family: 'Foldit', sans-serif;
+
+
+}
+
+@media (max-width: 475px) {
+    .search {
+      width: 250px; 
+    }
+    
+    .details {
+      font-size: 80px;
+  }
+  .lorem{
+    width: 700px;
+    color: rgb(10, 58, 58);
+    font-family: 'Foldit', sans-serif;
+}
+}

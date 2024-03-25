@@ -1,0 +1,11 @@
+Backend 
+
+authcontroller
+
+Terminer le login - jsonwebtoken,
+
+mettre a jour lutiliser, supprimer le utiliser,
+
+manga-controller - get,put,delete,post.
+
+ratelimite,

@@ -1,0 +1,32 @@
+.nav li{
+    list-style: none;
+    margin: 0 20px;
+    margin-left: 5px;
+}
+
+.nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Racing Sans One", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button {
+    margin-left: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #cc0000;
+  }
+.nav li a:hover,
+.nav li a.active{
+    color: var(--primary);
+}

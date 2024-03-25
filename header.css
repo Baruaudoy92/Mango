@@ -1,0 +1,41 @@
+/* header.css */
+
+/* Base styles for header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    transition: 0.5s;
+    z-index: 10000;
+}
+
+/* Styles when header is scrolled */
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid var(--primary);
+    border-image: linear-gradient(90deg, transparent, var (--primary), transparent)30;
+    backdrop-filter: blur(20px);
+    padding: 10px, 100px;
+}
+
+/* Navigation list styles */
+.nav {
+    display: flex;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 5px;  
+        font-size: 10px;
+    }
+
+    header.scrolled {
+        padding: 5px; /* Reduce padding for smaller screens when header is scrolled */
+    }
+}

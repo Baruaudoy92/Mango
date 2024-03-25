@@ -1,0 +1,80 @@
+.user-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: monospace;
+  }
+  
+  .utilisateur {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: monospace;
+    color: #cc0000;
+  }
+  
+  .user-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .user-item p {
+    margin: 5px 0;
+    font-family: monospace;
+  }
+  
+  .user-item div {
+    margin-top: 10px;
+  }
+  
+  .user-item button {
+    margin-right: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .user-item button:hover {
+    background-color: #cc0000;
+  }
+  
+  .user-item a {
+    text-decoration: none;
+    background-color: #089506;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-item a:hover {
+    background-color: #0056b3;
+  }
+  
+
+@media screen and (max-width: 768px) {
+ 
+  .user-container {
+      flex-direction: column; 
+      align-items: center; 
+  }
+
+  .user-container h1 {
+      font-size: 24px; 
+      margin-bottom: 20px; 
+  }
+
+  .user-item {
+      width: 90%; 
+      margin-bottom: 20px; 
+      padding: 10px; 
+  }
+}
+
+
+@media screen and (min-width: 769px) {
+
+}

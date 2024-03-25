@@ -1,0 +1,63 @@
+/* mangas.css */
+
+.banner__container {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px; /* Initial height */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(183, 26, 26);
+    font-family: "Poppins", sans-serif;
+    border-radius: 0px;
+  }
+  
+  .banner__heading1 {
+    font-size: 2rem;
+  }
+  
+  /* Styles for the arrow buttons */
+  .icon-button {
+    position: absolute;
+    background-color: #d62b01;
+    border-radius: 10px;
+  }
+  
+  .btn1 {
+    width: 35px;
+    left: 0;
+    top: 40%;
+  }
+  
+  .btn2 {
+    width: 35px;
+    right: 0;
+    top: 40%;
+  }
+  
+  /* Styles for the manga items container */
+  .mangas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; 
+    cursor: pointer;
+  }
+  
+  /* Styles for individual manga items */
+  .manga-item {
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    width: 210px; 
+    text-align: center;
+  }
+  
+  .manga-item img {
+    max-width: 100%; /* Ensure images don't exceed the container width */
+  }
+  

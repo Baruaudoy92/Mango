@@ -1,0 +1,20 @@
+.images{
+    width: 50%;
+    height: 470px;
+    border-radius: 20px;
+}
+.h3_contact{
+    margin-top: 20px;
+    color: rgb(181, 7, 7);
+    font-family: monospace;
+}
+.P_contact{
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+.pcontactme{
+    margin-top: 10px;
+    color: rgb(230, 161, 13);
+    font-family: monospace;
+}

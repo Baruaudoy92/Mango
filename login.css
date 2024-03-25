@@ -1,0 +1,123 @@
+.login_page {
+    height: 90.5vh;
+    margin-top: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/564x/2f/da/0c/2fda0ccde8b217c0f47a3cec6af5b36d.jpg);
+    border-radius: 20px;
+}
+
+.card_page {
+    width: 50%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    min-height: 500px;
+    overflow: hidden;
+}
+
+.left {
+    flex: 1;
+    background:url(https://i.pinimg.com/originals/41/af/b0/41afb028d4003a69df3c1813c46159c2.jpg) center;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(255, 242, 0);
+    font-family:monospace;
+}
+
+.left h1 {
+    font-size: 35px;
+    line-height: 100px;
+    margin-top: 10px;
+}
+
+.left span {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.left button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(18, 66, 77);
+    color: rgb(254, 254, 254);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.right {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right input {
+    border: none;
+    border-bottom: 1px solid rgb(11, 32, 75);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.right button {
+    width: 80%;
+    margin-left: 55px;
+    padding: 10px;
+    border: none;
+    font-family: monospace;
+    background-color: #9e4724;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* Add media queries for responsiveness */
+
+/* For screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .card_page {
+        width: 90%; /* Reduce card width for smaller screens */
+    }
+
+    .left,
+    .right {
+        width: 100%; /* Make left and right sections full width */
+    }
+
+    .left {
+        text-align: center; /* Center text in the left section */
+    }
+
+    .left h1 {
+        font-size: 24px; /* Adjust heading font size for smaller screens */
+    }
+
+    .right h1 {
+        font-size: 24px; /* Adjust heading font size for smaller screens */
+    }
+
+    .right form {
+        margin-top: 20px; /* Add some space between heading and form */
+    }
+}
+
+

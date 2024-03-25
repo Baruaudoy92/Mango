@@ -1,0 +1,113 @@
+/* admin.css */
+
+/* Common styles */
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    color: rgb(209, 14, 14);
+    font-family: monospace;
+  }
+  
+  .admin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    background-image: url(https://i.pinimg.com/originals/6c/b1/05/6cb10550aa1824726cb039130669665f.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .admin-header h1 {
+    margin: 0;
+  }
+
+  .mangaa{
+    color: rgb(237, 235, 235);
+    font-family: monospace;
+  }
+  
+  .admin-nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .admin-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: #750b22;
+    border-radius: 5px;
+  }
+  
+  .admin-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .manga-card {
+    background-color:  rgb(215, 68, 5);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: underline;
+  }
+  
+  .manga-card img {
+    width: 10%;
+    border-radius: 10px;
+  }
+  
+  .manga-card p {
+    margin: 10px 0;
+  }
+  
+  .manga-card button {
+    padding: 5px 10px;
+    background-color: #0e6205;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+  }
+  
+  .manga-card button:hover {
+    background-color: #800c0c;
+  }
+  
+  /* Media queries for responsive design */
+  
+  /* Tablet and smaller devices */
+  @media (max-width: 768px) {
+    .admin-container {
+      margin-top: 3rem;
+    }
+  
+    .admin-content {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+  }
+  
+  /* Mobile devices */
+  @media (max-width: 480px) {
+    .admin-nav {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .admin-nav a {
+      padding: 0.5rem 0.75rem;
+    }
+  
+    .manga-card {
+      padding: 15px;
+    }
+  }
+  

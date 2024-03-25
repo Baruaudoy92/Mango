@@ -1,0 +1,235 @@
+.bannerCard{
+    width: 43%;
+}
+
+.swiper {
+    width: 60%;
+    height: 500px;
+    margin-right: 200px;
+  }
+  
+  .swiper-slide {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    border-radius: 18px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+  .right_swip{
+    background-image: url(../assets/images/cap.png);
+    border-radius: 4px;
+    width: 525px;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.bedetheque.com/media/Couvertures/Couv_396921.jpg);
+    background-size: cover; 
+    background-position: center; 
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/originals/8f/88/b7/8f88b7985b3fd28a2f2b584ee6ec0996.jpg);
+  background-size: cover; 
+  background-position: center; 
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/07/83/31/078331581d608a604c3d112604ca86a3.jpg);
+    background-size: cover; 
+    background-position: center; 
+  }
+  
+  .swiper-slide:nth-child(4n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(http://pm1.aminoapps.com/8693/d0a8cf81d643bd573d916546cf26312cee390ae1r1-736-1104v2_uhq.jpg);
+    background-size: cover; 
+    background-position: center;
+  }
+  
+  .swiper-slide:nth-child(5n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://4.bp.blogspot.com/-ZntrIUbfGwI/WXZF66bP70I/AAAAAAAAAIc/zsQ1OBnZo_gS_eZ1KeTH5Ucc3r6w6XGnwCLcBGAs/s1600/naruto-manga-volume-70-francaise-239861.jpg);
+    background-size: cover; 
+    background-position: center;
+  }
+
+  .swiper-slide:nth-child(6n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(  https://tiermaker.com/images/templates/jujutsu-kaisen-covers-0-15-831032/8310321613504453.png
+    );
+    background-size: cover; 
+    background-position: center;
+  }
+  .swiper-slide:nth-child(7n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.sanctuary.fr/big/hunter-x-hunter-manga-volume-33-simple-269503.jpg);
+    background-size: cover; 
+    background-position: center;  }
+  
+  .swiper-slide:nth-child(8n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781569319307/dragon-ball-z-vol-1-9781569319307_hr.jpg);
+    background-size: cover; 
+    background-position: center;  
+  }
+  
+  .swiper-slide:nth-child(9n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(https://4.bp.blogspot.com/-1Vf88sDnR6U/T8ZBsQmDMxI/AAAAAAAAOLU/Tcb72K_Yt14/s1600/bleach-494-01.jpg);
+    background-size: cover; 
+    background-position: center;  
+  }
+  .swiper-slide:nth-child(10n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(https://d28hgpri8am2if.cloudfront.net/book_images/cvr9781421518886_9781421518886_hr.jpg);
+    background-size: cover; 
+    background-position: center;  
+  }
+
+  .swiper-slide:nth-child(11n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(https://www.planetebd.com/dynamicImages/album/cover/large/14/45/album-cover-large-14457.jpg);
+    background-size: cover; 
+    background-position: center;  
+  }
+  .swiper-slide:nth-child(12n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(http://www.mangagate.com/ressources/images/couverture/manga/young-gto-volume-9.jpg);
+    background-size: cover; 
+    background-position: center;  
+  }
+  .swiper-slide:nth-child(13n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(http://www.mangagate.com/ressources/images/couverture/manga/young-gto-volume-6.jpg);
+    background-size: cover; 
+    background-position: center;  
+  }
+  .swiper-slide:nth-child(14n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(http://www.mangagate.com/ressources/images/couverture/manga/young-gto-volume-7.jpg);
+    background-size: cover; 
+    background-position: center;  
+  }
+  .swiper-slide:nth-child(15n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(http://www.mangagate.com/ressources/images/couverture/manga/young-gto-volume-5.jpg);
+    background-size: cover; 
+    background-position: center;  
+  }
+  .swiper-slide:nth-child(16n) {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(http://www.mangagate.com/ressources/images/couverture/manga/young-gto-volume-10.jpg);
+    background-size: cover; 
+    background-position: center;  
+  }
+
+  /* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .video_acc {
+    position: absolute;
+    margin-top: 0px;
+    max-width: 320%;
+    margin-left: 17px;
+}  
+  .headerImgs {
+    width: 327%; /* Set full width for smaller screens */
+    margin-top: 0; /* Remove top margin for smaller screens */
+  }
+  .swiper-slide {
+    font-size: 24px; 
+}
+  .bannerglobal {
+    width: 314%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -215px;
+    margin-left: 54px;
+}
+  .details {
+   font-size: 25px;
+}
+}
+
+
+
+  

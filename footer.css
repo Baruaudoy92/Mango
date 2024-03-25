@@ -1,0 +1,31 @@
+.footall {
+    width: 100%;
+    height: 120px;
+    margin-top: 180px;
+    background-color: rgb(227, 67, 9);
+    border-radius: 20px;
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWN1N3piNmI5c25xbm15aTVrd2Z4Y2k1ejFoamVlOHJobWltdXkwNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6U47YlEnJQNeb05Csh/giphy.gif);
+    background-size: cover;
+    object-fit: cover;
+    font-family: monospace;
+}
+
+.c1 {
+    color: white;
+    margin-left: 275px;
+    margin-bottom: 25px;
+    font-family: monospace;
+}
+
+@media screen and (max-width: 768px) {
+    .footall {
+        height: auto;
+        padding: 20px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .c1 {
+        margin-left: 0;
+    }
+}

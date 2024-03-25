@@ -1,0 +1,133 @@
+.blog{
+    border-radius: 20px;
+    background-size: cover; 
+    background-position: center; 
+}
+.headers{
+    margin-top: 680px;
+}
+
+.headerTitless{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #9b0c0c;
+}
+
+.headerImgs .video{
+    width: 100%;
+    height: 450px;
+    margin-top: -220px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.headerImgs{
+    width: 100%;
+    height: 355px;
+    margin-top: 110px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.post{
+    width: 385px;
+    margin: 0px 25px 40px 25px ;
+    margin-bottom: 120px;
+}
+.post-1{
+    width: 385px;
+    margin-top: -500px;
+    margin-left: 430px;
+}
+.post-2{
+    width: 385px;
+    margin-top: -385px;
+    margin-left: 840px;
+}
+.post-3{
+    width: 385px;
+    margin-top: 220;
+    margin-left: 25px;
+    margin-bottom: 100px;
+}
+.post-4{
+    width: 385px;
+    margin-top: -500px;
+    margin-left: 431px;
+    margin-bottom: 100px;
+}
+.post-5{
+    width: 385px;
+    margin-top: -500px;
+    margin-left: 840px;
+}
+.postImg{
+    width: 100%;
+    height: 230px;;
+    object-fit: cover;
+    border-radius: 70px;
+}
+
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postCat{
+    font-family: "Varela Round", sans-serif;
+    font-size: 11px;
+    color: #a31f56;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.postTitle{
+    background-image: url();
+    border-radius: 20px;
+    color: #566bbe;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postDate{
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #a31f56;
+    margin-top: 15px;
+}
+
+.postDesc{
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    color: #be9656;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.video_acc{
+    position: absolute;
+    margin-top: -110px;
+    top: 20%;
+    max-width: 65%;
+    max-height: 100%;
+    margin-left: 19%;
+    border-radius: 10px;
+}
+
+  /* Media queries for mobile */
+  @media screen and (max-width: 768px) {
+  
+  }
+  

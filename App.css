@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --primary: #ff3700;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    animation: changeBackground 10s infinite alternate; /* Change every 2 seconds */
+}
+
+@keyframes changeBackground {
+    0% { background-color: rgb(5, 13, 43); }
+    25% { background-color: rgb(38, 11, 36); }
+    50% { background-color: rgb(30, 46, 18); } /* Change to the desired color */
+    75% { background-color: rgb(69, 21, 6); } /* Change to the desired color */
+    100% { background-color: black; }
+}
+
+
+body::-webkit-scrollbar{
+    display: none;
+}
